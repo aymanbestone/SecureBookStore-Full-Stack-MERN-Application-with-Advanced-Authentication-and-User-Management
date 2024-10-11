@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const joi = require("joi");
 const authorSchema = new mongoose.Schema(
   {
-    firstname: { type: String, required: true, trim: true, minlength: 3 },
+    firstname: { type: String , required: true , trim: true, minlength: 2},
     lastname: {
       type: String,
       required: true,
